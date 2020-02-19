@@ -1,0 +1,24 @@
+/* This is styling for the main body of the website */
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+    background-color: #adacb7;
+}
+
+.topBG{
+    background-image: url(../withTree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.pageContent{
+    position: absolute;
+    top: 10vh;
+    height: 1000px;
+}

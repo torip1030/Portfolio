@@ -1,0 +1,116 @@
+/* this is styling for the home page (bio and projects) */
+
+.bioContent{
+    display: inline-flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 30px 0 30px 0;
+    flex-wrap: wrap;
+}
+
+.bioSection{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5em;
+    padding:20px;
+    min-width: 480px;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+}
+
+.logoLink{
+    width: 50px;
+    height: auto;
+    margin: 0 10px 0 10px;
+}
+
+.logoLink2{
+    width: 50px;
+    height: auto;
+    margin: 0 10px 0 10px;
+}
+
+/* background-color: rgb(80, 103, 128, .9); */
+.nameGif{
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.projectContent{
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.projectSection{
+    display: block;
+    width: 40%;
+    background-color: #506780;
+    margin: 30px;
+    height: auto;
+    box-shadow: 5px 5px #243046;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 480px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.projectRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.projectCol{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.projectImg{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+ul{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.projectBtn{
+    color:black;
+}
+
+.projectBtn:hover{
+    color: #adacb7;
+}
+
+.projectBtn img{
+    width: 30px;
+    height: auto;
+    padding: 0 0 0 2px;
+}
+
+@media only screen and (max-width: 480px) {
+    .bioSection{
+        min-width: 300px;
+    }
+
+    .projectSection{
+        min-width: 300px;
+    }
+}

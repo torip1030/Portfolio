@@ -1,0 +1,42 @@
+/* This is styling for the top navigation menu */
+nav{
+    width: 100vw;
+    height: 60px;
+    background-color: #243046;
+    color: white;
+    display: inline-flex;
+    position: fixed;
+    top:0;
+    overflow: hidden;
+    justify-content: flex-end;
+    z-index: 100;
+}
+
+.navContent{
+    display: inline-flex;
+    position: relative;
+    line-height: 60px;
+}
+
+.navItem{
+    height: 100%;
+    padding: 0 20px 0 20px;
+    color: #adacb7;
+
+}
+
+.navItem:hover{
+    border-bottom: 5px solid #adacb7;
+    color: #adacb7;
+}
+
+a{
+    color: #adacb7;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.navItem:active{
+    color: #adacb7;
+}
